@@ -1,5 +1,5 @@
 //
-//  ViewController.h
+//  AlarmSettingViewController.h
 //  Widget+LocalNotification
 //
 //  Created by JihoonPark on 05/12/2018.
@@ -8,8 +8,10 @@
 
 #import <UIKit/UIKit.h>
 
-@interface ViewController : UIViewController
+NS_ASSUME_NONNULL_BEGIN
 
+@interface AlarmSettingViewController : UIViewController
 
 @end
 
+NS_ASSUME_NONNULL_END

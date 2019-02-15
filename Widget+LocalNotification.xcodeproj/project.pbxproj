@@ -8,24 +8,80 @@
 
 /* Begin PBXBuildFile section */
 		7A21490C21B75DE10082B211 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 7A21490B21B75DE10082B211 /* AppDelegate.m */; };
-		7A21490F21B75DE10082B211 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 7A21490E21B75DE10082B211 /* ViewController.m */; };
 		7A21491221B75DE10082B211 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7A21491021B75DE10082B211 /* Main.storyboard */; };
 		7A21491421B75DE30082B211 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7A21491321B75DE30082B211 /* Assets.xcassets */; };
 		7A21491721B75DE30082B211 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7A21491521B75DE30082B211 /* LaunchScreen.storyboard */; };
 		7A21491A21B75DE30082B211 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 7A21491921B75DE30082B211 /* main.m */; };
+		7A21492821B760D60082B211 /* AirKoreaData.m in Sources */ = {isa = PBXBuildFile; fileRef = 7A21492621B760D60082B211 /* AirKoreaData.m */; };
+		7A21492B21B7611D0082B211 /* FaceView.m in Sources */ = {isa = PBXBuildFile; fileRef = 7A21492A21B7611D0082B211 /* FaceView.m */; };
+		7A21492E21B761470082B211 /* AreaTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 7A21492D21B761470082B211 /* AreaTableViewController.m */; };
+		7A21493121B766DF0082B211 /* DetailViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 7A21493021B766DF0082B211 /* DetailViewController.m */; };
+		7A21493421B76B050082B211 /* AlarmSettingViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 7A21493321B76B050082B211 /* AlarmSettingViewController.m */; };
+		7AF3FC0D21C0DB9D002CB099 /* NotificationCenter.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7AF3FC0C21C0DB9D002CB099 /* NotificationCenter.framework */; };
+		7AF3FC1121C0DB9D002CB099 /* TodayViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 7AF3FC1021C0DB9D002CB099 /* TodayViewController.m */; };
+		7AF3FC1421C0DB9D002CB099 /* MainInterface.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7AF3FC1221C0DB9D002CB099 /* MainInterface.storyboard */; };
+		7AF3FC1821C0DB9D002CB099 /* TodayPannel.appex in Embed App Extensions */ = {isa = PBXBuildFile; fileRef = 7AF3FC0A21C0DB9D002CB099 /* TodayPannel.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+		7AF3FC1D21C0E602002CB099 /* AreaTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 7A21492D21B761470082B211 /* AreaTableViewController.m */; };
+		7AF3FC1E21C0E605002CB099 /* DetailViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 7A21493021B766DF0082B211 /* DetailViewController.m */; };
+		7AF3FC1F21C0E607002CB099 /* AlarmSettingViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 7A21493321B76B050082B211 /* AlarmSettingViewController.m */; };
+		7AF3FC2021C0E60A002CB099 /* FaceView.m in Sources */ = {isa = PBXBuildFile; fileRef = 7A21492A21B7611D0082B211 /* FaceView.m */; };
+		7AF3FC2121C0E60D002CB099 /* AirKoreaData.m in Sources */ = {isa = PBXBuildFile; fileRef = 7A21492621B760D60082B211 /* AirKoreaData.m */; };
+		7AF3FC2221C0E610002CB099 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 7A21490B21B75DE10082B211 /* AppDelegate.m */; };
+		7AF3FC2321C0F0DF002CB099 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 7A21491921B75DE30082B211 /* main.m */; };
+		7AF3FC2421C0F15A002CB099 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7A21491321B75DE30082B211 /* Assets.xcassets */; };
+		7AF3FC2721C0FC47002CB099 /* TodayViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 7AF3FC1021C0DB9D002CB099 /* TodayViewController.m */; };
 /* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		7AF3FC1621C0DB9D002CB099 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 7A2148FF21B75DE10082B211 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 7AF3FC0921C0DB9D002CB099;
+			remoteInfo = TodayPannel;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		7AF3FC1C21C0DB9D002CB099 /* Embed App Extensions */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 13;
+			files = (
+				7AF3FC1821C0DB9D002CB099 /* TodayPannel.appex in Embed App Extensions */,
+			);
+			name = "Embed App Extensions";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
 		7A21490721B75DE10082B211 /* Widget+LocalNotification.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Widget+LocalNotification.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		7A21490A21B75DE10082B211 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		7A21490B21B75DE10082B211 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		7A21490D21B75DE10082B211 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
-		7A21490E21B75DE10082B211 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
 		7A21491121B75DE10082B211 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		7A21491321B75DE30082B211 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		7A21491621B75DE30082B211 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		7A21491821B75DE30082B211 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		7A21491921B75DE30082B211 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		7A21492621B760D60082B211 /* AirKoreaData.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AirKoreaData.m; sourceTree = "<group>"; };
+		7A21492721B760D60082B211 /* AirKoreaData.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AirKoreaData.h; sourceTree = "<group>"; };
+		7A21492921B7611D0082B211 /* FaceView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FaceView.h; sourceTree = "<group>"; };
+		7A21492A21B7611D0082B211 /* FaceView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FaceView.m; sourceTree = "<group>"; };
+		7A21492C21B761470082B211 /* AreaTableViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AreaTableViewController.h; sourceTree = "<group>"; };
+		7A21492D21B761470082B211 /* AreaTableViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AreaTableViewController.m; sourceTree = "<group>"; };
+		7A21492F21B766DF0082B211 /* DetailViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DetailViewController.h; sourceTree = "<group>"; };
+		7A21493021B766DF0082B211 /* DetailViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DetailViewController.m; sourceTree = "<group>"; };
+		7A21493221B76B050082B211 /* AlarmSettingViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AlarmSettingViewController.h; sourceTree = "<group>"; };
+		7A21493321B76B050082B211 /* AlarmSettingViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AlarmSettingViewController.m; sourceTree = "<group>"; };
+		7AF3FC0A21C0DB9D002CB099 /* TodayPannel.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = TodayPannel.appex; sourceTree = BUILT_PRODUCTS_DIR; };
+		7AF3FC0C21C0DB9D002CB099 /* NotificationCenter.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = NotificationCenter.framework; path = System/Library/Frameworks/NotificationCenter.framework; sourceTree = SDKROOT; };
+		7AF3FC0F21C0DB9D002CB099 /* TodayViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TodayViewController.h; sourceTree = "<group>"; };
+		7AF3FC1021C0DB9D002CB099 /* TodayViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TodayViewController.m; sourceTree = "<group>"; };
+		7AF3FC1321C0DB9D002CB099 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/MainInterface.storyboard; sourceTree = "<group>"; };
+		7AF3FC1521C0DB9D002CB099 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		7AF3FC2621C0FC13002CB099 /* Widget+LocalNotification.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = "Widget+LocalNotification.entitlements"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -36,6 +92,14 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		7AF3FC0721C0DB9D002CB099 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7AF3FC0D21C0DB9D002CB099 /* NotificationCenter.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
@@ -43,6 +107,8 @@
 			isa = PBXGroup;
 			children = (
 				7A21490921B75DE10082B211 /* Widget+LocalNotification */,
+				7AF3FC0E21C0DB9D002CB099 /* TodayPannel */,
+				7AF3FC0B21C0DB9D002CB099 /* Frameworks */,
 				7A21490821B75DE10082B211 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -51,6 +117,7 @@
 			isa = PBXGroup;
 			children = (
 				7A21490721B75DE10082B211 /* Widget+LocalNotification.app */,
+				7AF3FC0A21C0DB9D002CB099 /* TodayPannel.appex */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -58,17 +125,69 @@
 		7A21490921B75DE10082B211 /* Widget+LocalNotification */ = {
 			isa = PBXGroup;
 			children = (
+				7AF3FC2621C0FC13002CB099 /* Widget+LocalNotification.entitlements */,
+				7A21492221B75E860082B211 /* Controller */,
+				7A21492121B75E810082B211 /* View */,
+				7A21492021B75E6A0082B211 /* Model */,
 				7A21490A21B75DE10082B211 /* AppDelegate.h */,
 				7A21490B21B75DE10082B211 /* AppDelegate.m */,
-				7A21490D21B75DE10082B211 /* ViewController.h */,
-				7A21490E21B75DE10082B211 /* ViewController.m */,
-				7A21491021B75DE10082B211 /* Main.storyboard */,
 				7A21491321B75DE30082B211 /* Assets.xcassets */,
 				7A21491521B75DE30082B211 /* LaunchScreen.storyboard */,
 				7A21491821B75DE30082B211 /* Info.plist */,
 				7A21491921B75DE30082B211 /* main.m */,
 			);
 			path = "Widget+LocalNotification";
+			sourceTree = "<group>";
+		};
+		7A21492021B75E6A0082B211 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				7A21492721B760D60082B211 /* AirKoreaData.h */,
+				7A21492621B760D60082B211 /* AirKoreaData.m */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		7A21492121B75E810082B211 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				7A21491021B75DE10082B211 /* Main.storyboard */,
+				7A21492921B7611D0082B211 /* FaceView.h */,
+				7A21492A21B7611D0082B211 /* FaceView.m */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		7A21492221B75E860082B211 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				7A21492C21B761470082B211 /* AreaTableViewController.h */,
+				7A21492D21B761470082B211 /* AreaTableViewController.m */,
+				7A21492F21B766DF0082B211 /* DetailViewController.h */,
+				7A21493021B766DF0082B211 /* DetailViewController.m */,
+				7A21493221B76B050082B211 /* AlarmSettingViewController.h */,
+				7A21493321B76B050082B211 /* AlarmSettingViewController.m */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		7AF3FC0B21C0DB9D002CB099 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				7AF3FC0C21C0DB9D002CB099 /* NotificationCenter.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		7AF3FC0E21C0DB9D002CB099 /* TodayPannel */ = {
+			isa = PBXGroup;
+			children = (
+				7AF3FC0F21C0DB9D002CB099 /* TodayViewController.h */,
+				7AF3FC1021C0DB9D002CB099 /* TodayViewController.m */,
+				7AF3FC1221C0DB9D002CB099 /* MainInterface.storyboard */,
+				7AF3FC1521C0DB9D002CB099 /* Info.plist */,
+			);
+			path = TodayPannel;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -81,15 +200,34 @@
 				7A21490321B75DE10082B211 /* Sources */,
 				7A21490421B75DE10082B211 /* Frameworks */,
 				7A21490521B75DE10082B211 /* Resources */,
+				7AF3FC1C21C0DB9D002CB099 /* Embed App Extensions */,
 			);
 			buildRules = (
 			);
 			dependencies = (
+				7AF3FC1721C0DB9D002CB099 /* PBXTargetDependency */,
 			);
 			name = "Widget+LocalNotification";
 			productName = "Widget+LocalNotification";
 			productReference = 7A21490721B75DE10082B211 /* Widget+LocalNotification.app */;
 			productType = "com.apple.product-type.application";
+		};
+		7AF3FC0921C0DB9D002CB099 /* TodayPannel */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 7AF3FC1B21C0DB9D002CB099 /* Build configuration list for PBXNativeTarget "TodayPannel" */;
+			buildPhases = (
+				7AF3FC0621C0DB9D002CB099 /* Sources */,
+				7AF3FC0721C0DB9D002CB099 /* Frameworks */,
+				7AF3FC0821C0DB9D002CB099 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = TodayPannel;
+			productName = TodayPannel;
+			productReference = 7AF3FC0A21C0DB9D002CB099 /* TodayPannel.appex */;
+			productType = "com.apple.product-type.app-extension";
 		};
 /* End PBXNativeTarget section */
 
@@ -101,6 +239,14 @@
 				ORGANIZATIONNAME = JihoonPark;
 				TargetAttributes = {
 					7A21490621B75DE10082B211 = {
+						CreatedOnToolsVersion = 10.1;
+						SystemCapabilities = {
+							com.apple.ApplicationGroups.iOS = {
+								enabled = 0;
+							};
+						};
+					};
+					7AF3FC0921C0DB9D002CB099 = {
 						CreatedOnToolsVersion = 10.1;
 					};
 				};
@@ -119,6 +265,7 @@
 			projectRoot = "";
 			targets = (
 				7A21490621B75DE10082B211 /* Widget+LocalNotification */,
+				7AF3FC0921C0DB9D002CB099 /* TodayPannel */,
 			);
 		};
 /* End PBXProject section */
@@ -134,6 +281,15 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		7AF3FC0821C0DB9D002CB099 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7AF3FC2421C0F15A002CB099 /* Assets.xcassets in Resources */,
+				7AF3FC1421C0DB9D002CB099 /* MainInterface.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
@@ -141,13 +297,41 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				7A21490F21B75DE10082B211 /* ViewController.m in Sources */,
+				7AF3FC2721C0FC47002CB099 /* TodayViewController.m in Sources */,
+				7A21492821B760D60082B211 /* AirKoreaData.m in Sources */,
+				7A21492E21B761470082B211 /* AreaTableViewController.m in Sources */,
+				7A21492B21B7611D0082B211 /* FaceView.m in Sources */,
+				7A21493421B76B050082B211 /* AlarmSettingViewController.m in Sources */,
 				7A21491A21B75DE30082B211 /* main.m in Sources */,
 				7A21490C21B75DE10082B211 /* AppDelegate.m in Sources */,
+				7A21493121B766DF0082B211 /* DetailViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7AF3FC0621C0DB9D002CB099 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7AF3FC1D21C0E602002CB099 /* AreaTableViewController.m in Sources */,
+				7AF3FC1F21C0E607002CB099 /* AlarmSettingViewController.m in Sources */,
+				7AF3FC2021C0E60A002CB099 /* FaceView.m in Sources */,
+				7AF3FC1121C0DB9D002CB099 /* TodayViewController.m in Sources */,
+				7AF3FC1E21C0E605002CB099 /* DetailViewController.m in Sources */,
+				7AF3FC2121C0E60D002CB099 /* AirKoreaData.m in Sources */,
+				7AF3FC2321C0F0DF002CB099 /* main.m in Sources */,
+				7AF3FC2221C0E610002CB099 /* AppDelegate.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		7AF3FC1721C0DB9D002CB099 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 7AF3FC0921C0DB9D002CB099 /* TodayPannel */;
+			targetProxy = 7AF3FC1621C0DB9D002CB099 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
 		7A21491021B75DE10082B211 /* Main.storyboard */ = {
@@ -164,6 +348,14 @@
 				7A21491621B75DE30082B211 /* Base */,
 			);
 			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+		7AF3FC1221C0DB9D002CB099 /* MainInterface.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				7AF3FC1321C0DB9D002CB099 /* Base */,
+			);
+			name = MainInterface.storyboard;
 			sourceTree = "<group>";
 		};
 /* End PBXVariantGroup section */
@@ -315,6 +507,42 @@
 			};
 			name = Release;
 		};
+		7AF3FC1921C0DB9D002CB099 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = Z73D4U4HW8;
+				INFOPLIST_FILE = TodayPannel/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@executable_path/../../Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "cnu.201402356.Widget-LocalNotification.TodayPannel";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		7AF3FC1A21C0DB9D002CB099 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = Z73D4U4HW8;
+				INFOPLIST_FILE = TodayPannel/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@executable_path/../../Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "cnu.201402356.Widget-LocalNotification.TodayPannel";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
@@ -332,6 +560,15 @@
 			buildConfigurations = (
 				7A21491E21B75DE30082B211 /* Debug */,
 				7A21491F21B75DE30082B211 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		7AF3FC1B21C0DB9D002CB099 /* Build configuration list for PBXNativeTarget "TodayPannel" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7AF3FC1921C0DB9D002CB099 /* Debug */,
+				7AF3FC1A21C0DB9D002CB099 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
